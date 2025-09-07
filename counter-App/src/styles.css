@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+.btn {
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
