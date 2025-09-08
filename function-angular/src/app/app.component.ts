@@ -17,4 +17,11 @@ export class AppComponent {
   otherFunction = () => {
     confirm('Hello from otherFunction');
   };
+
+  Sum: number = 0;
+  totalSum() {
+    let a = Number(prompt('Enter first number'));
+    let b = Number(prompt('Enter second number'));
+    this.Sum = a + b;
+  }
 }

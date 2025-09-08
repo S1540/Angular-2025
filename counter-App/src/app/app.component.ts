@@ -22,4 +22,8 @@ export class AppComponent {
       this.count = 0;
     }
   }
+
+  // setDarkMode() {
+  //   document.body.classList.toggle('bg-green');
+  // }
 }
