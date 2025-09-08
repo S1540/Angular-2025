@@ -1,0 +1,21 @@
+<h1 style="color: red; padding: 10px; text-align: center">Events In Angular</h1>
+
+<!-- <button
+  style="padding: 8px; background-color: blue; color: white; margin: auto"
+  (click)="handleEvent($event)"
+>
+  Check Events
+</button> -->
+
+<div
+  (mouseenter)="handleEvent($event)"
+  style="width: 100px; height: 100px; background-color: green; margin: 10px"
+>
+  Box1
+</div>
+<div
+  (mouseleave)="handleEvent($event)"
+  style="width: 100px; height: 100px; background-color: red; margin: 10px"
+>
+  Box2
+</div>
