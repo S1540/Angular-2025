@@ -9,10 +9,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'Event-angular';
-  handleEvent(event: any) {
-    // let buttonVal = event.target as HTMLButtonElement;
+  // title = 'Event-angular';
+  handleEvent(event: Event) {
     console.log(event.type);
-    // console.log(event);
+    console.log(event.target);
   }
 }
